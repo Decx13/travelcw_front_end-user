@@ -233,6 +233,15 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #fff;
   color: #09C6AB;
 }
+input.btn-log {
+  background: transparent;
+  color: #1ceff7;
+  border: none;
+}
+div#btn-forgetPw {
+  position: relative;
+  left: 60px;
+}
 .gtco-nav ul li.active > a {
   color: #fff !important;
 }
@@ -2133,8 +2142,8 @@ input#txtBirthDay {
   font-family: inherit;
   font-size: 20px;
   background: #09C6AB;
-  color: black;
-  fill: rgb(155, 153, 153);
+  color: white;
+  fill: rgb(38 200 157);
   padding: 0.7em 1em;
   padding-left: 0.9em;
   display: flex;
@@ -2146,6 +2155,13 @@ input#txtBirthDay {
   justify-content: center;
   flex-direction: row-reverse;
   flex-wrap: wrap;
+  width: 200px;
+}
+.d-flex.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
 }
 .btn-panel button span {
   display: block;
@@ -2160,7 +2176,7 @@ input#txtBirthDay {
 }
 
 .btn-panel button:hover {
-  background: #000;
+  background: #0beeab;
 }
 
 .btn-panel button:hover .svg-wrapper {
@@ -2182,10 +2198,13 @@ input#txtBirthDay {
   transform: scale(0.95);
 }
 
-.btn-panel{
+.btn-panel {
   display: flex;
-  justify-content: end;
+  justify-content: center;
   gap: 10px;
+  align-content: stretch;
+  /*flex-wrap: wrap;*/
+  flex-direction: row;
 }
 
 
