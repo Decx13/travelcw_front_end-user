@@ -90,6 +90,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  //background-image: url("https://i.pinimg.com/736x/28/8c/14/288c14715d5cd82e19af02f00b710426.jpg");
 }
 
 .gtco-nav {
@@ -1875,9 +1876,72 @@ form label {
 
 
 .register-container {
-  background-color: #333333;
   padding: 20px 50px 20px 50px;
 }
+input#txtName {
+  box-shadow: none;
+  background: #f7f7f7;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  height: 46px;
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+input#txtContact {
+  box-shadow: none;
+  background: #f7f7f7;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  height: 46px;
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+input#txtEmail {
+  box-shadow: none;
+  background: #f7f7f7;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  height: 46px;
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+input#txtPassword {
+  box-shadow: none;
+  background: #f7f7f7;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  height: 46px;
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+input#txtNicNo {
+  box-shadow: none;
+  background: #f7f7f7;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  height: 46px;
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+input#txtBirthDay {
+  box-shadow: none;
+  background: #f7f7f7;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  height: 46px;
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  position: relative;
+  bottom:5px;
+}
+
 .topic{
   align-self: center;
   background-color: rgba(5, 28, 28, 0);
